@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Practice of Admission open</title>
+</head>
+
+<body>
+     <h1>Registration for an acount</h1>
+     <fieldset>
+     <legend>Personal information</legend>
+
+     <label>Name:</label>
+     <input type="text" id="name" name="">
+
+     <label>Email:</label>
+     <input type="text" id="Email" name="" required pattern="[^@\s]+@[^@\s]+\.[^@\s]+">
+     <title>Enter a valid email</title>
+
+     <label>Password:</label>
+     <input type="text" id="Password" name="">
+
+     <label>Conform Password:</label>
+     <input type="password" id="Conform Password:" name="" minlength="6" maxlength="10" placeholder="type your password">
+ 
+     
+
+     <br>
+     <br>
+   
+     <p>Gender</p>
+     <label> <input type="radio" value="Male">Male</label>
+     <label> <input type="radio" value="Female">Female</label>
+     <label> <input type="radio" value="Rather not said">Rather not said</label>
+
+     <label for="Country">Country</label>
+     <select id="country" name="country">
+        <option value="ru">Russia</option>
+        <option value="in">India</option>
+        <option value="uk">United Kingdom</option>
+        <option value="us">United States</option>
+        <option value="ne">Nepal</option>
+        <option value="ch">China</option>
+        <option value="sa">South Africa</option>
+        <option value="ir">Iran</option>
+        <option value="ba">Bangladesh</option>
+        <option value="in">Indonesia</option>
+     </select>
+
+     <label>About your self</label>
+     <textarea name="About" id="About" rows="7" cols="70"></textarea>
+     </fieldset>
+
+     <br>
+
+<input type="checkbox" name="terms" id="terms" value="yes" required>    
+<label for="terms"> I agree to the term and condition</label>
+
+<br>
+<br>
+<input type="reset" value="Register">
+<input type="reset" value="Reset">
+
+</form>
+
+</section>   
+
+</body>
+
+</html>
